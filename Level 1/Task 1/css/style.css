@@ -295,8 +295,6 @@ nav a:hover{
   position: relative;
   flex-direction: column;
   gap: 0.4rem;
-
-
 }
 .hard-skills::after{
   content: "";
@@ -310,6 +308,7 @@ nav a:hover{
 
 .hard-skills-section,.soft-skills-section{
   display: flex;
+  justify-content: start;
   align-items: center;
   gap:1rem;
 
@@ -320,14 +319,15 @@ nav a:hover{
 
 .certificates-section,.internships-section{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5rem;
 }
 .certificate-image,.internship-image{
   width: 100%;
   height: auto;
 }
 .certificate-image-div,.internship-image-div{
-  width: 25%;
+  width: 30rem;
   margin-top: 1.4rem;
 }
 .ci-section,.ii-section{
@@ -342,8 +342,7 @@ nav a:hover{
 
 .download{
   display: flex;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding: 1rem;
   justify-content: space-around;
 
   font-family: Arial, Helvetica, sans-serif;

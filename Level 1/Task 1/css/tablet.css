@@ -69,6 +69,54 @@
      .section-second{
           align-items: center;
      }
+
+     .certificates-section,.internship-section{
+          justify-content: space-between;
+     }
+}
+
+@media (max-width:1000px){
+     .certificates-section,.internships-section{
+          flex-direction: column;
+          justify-content: left;
+          align-items: left;
+          gap: 0;
+     }
+     .certificate-image-div,.internship-image-div{
+          width: 100%;
+     }
+     .certificate-info,.internship-info{
+          padding: 2rem;
+     }
+     .ci-section,.ii-section{
+          border-top: 0.1rem solid rgb(255, 0, 225);
+     }
+     .certificates,.internships{
+          display: flex;
+          flex-direction: column;
+          row-gap: 2rem;
+     }
+     .ci-section h1,.ii-section h1{
+          margin-bottom: 1rem;
+     }
+
+     .skills{
+          justify-content: left;
+          flex-direction: column;
+          align-items: left;
+          gap: 0;
+     }
+     .hard-skills,.soft-skills{
+          position: static;
+          padding: 2rem;
+     }
+     .hard-skills::after{
+          display: none;
+     }
+
+     .skills h3{
+          margin-top:0 ;
+     }
 }
 
 @media (max-width: 900px){
@@ -101,15 +149,21 @@
           border-radius: 50%;
      }
 
-     @media (max-width: 360px){
-          footer{
-               flex-direction: column;
-               justify-content:center;
-               align-items: center;
-          }
-          .links{
-               display: flex;
-               flex-direction: column;
-          }
+@media (max-width: 400px){
+     .skillsection{
+          padding:0.2rem;
      }
+}
+
+@media (max-width: 360px){
+     footer{
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+     }
+     .links{
+          display: flex;
+          flex-direction: column;
+     }
+}
 }    
