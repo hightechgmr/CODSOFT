@@ -193,3 +193,168 @@ nav a:hover{
   line-height: 1.36;
   font-weight: 549;
 }
+
+.blue-line {
+  border: none;
+  height: 0.2rem;
+  background-color: #3498db;
+  width: 6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.17rem;
+}
+.line{
+  display: none;
+  width: 100%;
+}
+.photos{
+  display: none;
+}
+
+/*.hamburger{
+  display: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}*/
+.sbutton{
+  display: block;
+  background-color: rgb(0, 85, 254);
+  padding: 0.6rem 0.6rem;
+  height: fit-content;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.sbutton:hover{
+  background-color: #0056b3;
+}
+
+
+.skillsection{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0rem 2rem 2rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+  color: #111;
+  margin-top: 0.2rem;
+}
+.headings{
+  text-align: center;
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+}
+.subheadings{
+  font-size: 1.7rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+
+  margin-top: 1.4rem;
+}
+.subheadings::after {
+  content: "";
+  display: block;
+  width: 6rem;
+  height: 0.17rem;
+  background-color: #007BFF;
+  margin-top: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+
+  border: 0.1rem solid rgb(0, 110, 255);
+  padding-bottom: 1rem;
+}
+
+.skills-logo{
+  height: 2rem;
+  width: auto;
+}
+
+.hard-skills,.soft-skills{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 0.4rem;
+
+
+}
+.hard-skills::after{
+  content: "";
+  position: absolute;
+  top: 3.8rem;
+  right: -3rem;
+  height: 75%;
+  width: 0.1rem;
+  background-color: rgb(0, 110, 255);
+}
+
+.hard-skills-section,.soft-skills-section{
+  display: flex;
+  align-items: center;
+  gap:1rem;
+
+  font-size: 1.3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.certificates-section,.internships-section{
+  display: flex;
+  justify-content: space-evenly;
+}
+.certificate-image,.internship-image{
+  width: 100%;
+  height: auto;
+}
+.certificate-image-div,.internship-image-div{
+  width: 25%;
+  margin-top: 1.4rem;
+}
+.ci-section,.ii-section{
+  font-size: 1.3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
+.ci-section ul{
+  margin-left: 40px;
+  line-height: 2rem;
+}
+
+.download{
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.certificatex{
+  border: 0.1rem solid blueviolet;
+  margin-bottom: 0.2rem;
+}
+
+.internshipx{
+  border: 0.1rem solid rgb(0,191,201);
+  margin-bottom: 0.2rem;
+}
