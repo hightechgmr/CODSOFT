@@ -84,6 +84,10 @@
      }
      .certificate-image-div,.internship-image-div{
           width: 100%;
+          margin-top: 0rem;
+     }
+     .certificatex + .certificatex,.internshipx + .internshipx{
+          margin-top: 2rem;
      }
      .certificate-info,.internship-info{
           padding: 2rem;
@@ -94,7 +98,6 @@
      .certificates,.internships{
           display: flex;
           flex-direction: column;
-          row-gap: 2rem;
      }
      .ci-section h1,.ii-section h1{
           margin-bottom: 1rem;
