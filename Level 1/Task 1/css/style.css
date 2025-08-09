@@ -494,3 +494,15 @@ nav a:hover{
   margin-top: 0.3rem;
   margin-bottom: 0.4rem;
 }
+
+.snap{
+  padding: 1rem;
+}
+.image-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.snapimage{
+  width: 100%;
+}
