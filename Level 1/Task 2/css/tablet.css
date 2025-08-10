@@ -1,0 +1,120 @@
+@media (max-width: 1500px){
+     .smallview{
+          display: none;
+     }
+}
+
+@media (max-width: 1200px){
+
+     .section-picture{
+          align-self: flex-end;
+          padding: .5rem 0 0 0;
+     }
+     .section{
+          align-items: center;
+     }
+     .section-text h2{
+          margin: 0;
+          align-self: center;
+          padding-left: 1rem ;
+     }
+     .section-text p{
+          align-self: center;
+          margin: 0;
+          padding: 0;
+
+          padding: 1rem 1rem 0 1rem;
+     }
+     .section-second{
+          align-items: center;
+     }
+}
+
+@media (max-width: 900px){
+     .section{
+          padding-bottom: 0;
+     }
+     .section-second{
+          border-bottom: 0.1rem solid grey;
+          margin-bottom: 0.6rem;
+     }
+     .section-picture{
+          display: none;
+     }
+     .section-second-picture{
+          display: none;
+     }
+     .section-second-text{
+          padding-left: 1rem;
+          padding-bottom: 1rem;
+     }
+     .photos{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     }
+     .smallpic{
+          width: auto;
+          height: auto;
+          border-radius: 50%;
+     }
+
+@media (max-width: 720px){
+     header{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 0;
+     }
+
+     .navigation{
+          border-top: 0.09rem solid white;
+          margin-top: 1.3rem;
+     }
+     nav a{
+          margin: 0rem 3rem 0rem 3rem;
+          white-space: wrap;
+     }
+
+     .title{
+          border: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     }
+     .header-logo{
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     .logo{
+          height: 100%;
+          width: 100%;
+     }
+}
+
+
+@media (max-width: 360px){
+     footer{
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+     }
+     .links{
+          display: flex;
+          flex-direction: column;
+     }
+}
+
+@media (max-width: 300px){
+     .smallpic{
+          width: 100vw;
+          height: auto;
+          border-radius: 50%;
+     }
+}
+}
