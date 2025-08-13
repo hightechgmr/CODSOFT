@@ -1,2 +1,0 @@
-# CODSOFT
-For Internship Purpose
