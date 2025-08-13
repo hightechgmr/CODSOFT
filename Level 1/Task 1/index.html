@@ -74,6 +74,7 @@
                          <br>
                          This mix of wonder for the universe, fascination for technology, and creativity in gaming has shaped how I approach learning and problem-solving — with a blend of imagination, analysis, and the drive to explore what lies beneath the surface.
                     </p>
+                    <a class="sbutton" style="margin-top: 2rem;margin-bottom: 0rem;">My Skills</a>
                </div>
           </div>
      </div>
@@ -90,5 +91,18 @@
           </div>
           <a href="#top" class="scroll-top">Back To Top</a>
      </footer>
+
+     <script>
+     function calculateAge(birthDate) {
+        const today = new Date();
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const monthDiff = today.getMonth() - birthDate.getMonth();
+        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+        return age;
+     }
+     document.getElementById("age").textContent = calculateAge(new Date(2005, 8, 2)); // Month is 0-based
+</script>
 </body>
 </html>
