@@ -123,6 +123,15 @@
      .skills h3{
           margin-top:0 ;
      }
+
+}
+
+@media(max-width: 860px){
+     .about-container{
+          flex-direction: column;
+          justify-content: left;
+          align-items: left;
+     }
 }
 
 @media (max-width: 900px){
@@ -181,6 +190,12 @@
           flex-direction: column;
      }
 }
+}
+
+@media (max-width: 340px){
+     .resume{
+          border: none;
+     }
 }
 
 @media (max-width: 300px){
